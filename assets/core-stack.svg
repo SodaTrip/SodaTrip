@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="330" viewBox="0 0 1000 330" role="img" aria-labelledby="title desc">
+  <title id="title">Yasser Mendoza Core Stack</title>
+  <desc id="desc">Compact grouped technology stack for cloud infrastructure, backend AI automation, and security operations.</desc>
+  <defs><style>
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace}.section{fill:#0f1724;stroke:#273244}.tag{fill:#0b1220;stroke:#273244}.heading{fill:#f8fafc;font-size:15px;font-weight:700}.label{fill:#f8fafc;font-size:14px}.key{fill:#c792ea}.accent{fill:#7ee787}.icon{fill:#83b86f}
+  </style></defs>
+  <rect width="1000" height="330" rx="18" fill="#0b1220" stroke="#273244"/>
+
+  <rect x="28" y="24" width="944" height="82" rx="10" class="section"/>
+  <text x="46" y="49" class="mono heading"><tspan class="key">Cloud &amp; Infrastructure</tspan></text>
+  <g class="mono label">
+    <rect x="46" y="63" width="165" height="27" rx="6" class="tag"/><text x="60" y="82"><tspan class="accent">☁</tspan> Google Cloud</text>
+    <rect x="222" y="63" width="142" height="27" rx="6" class="tag"/><text x="236" y="82"><tspan class="accent">▣</tspan> Compute Engine</text>
+    <rect x="375" y="63" width="117" height="27" rx="6" class="tag"/><text x="389" y="82"><tspan class="accent">⌁</tspan> Cloud DNS</text>
+    <rect x="503" y="63" width="108" height="27" rx="6" class="tag"/><text x="517" y="82"><tspan class="accent">◆</tspan> Linux</text>
+    <rect x="622" y="63" width="106" height="27" rx="6" class="tag"/><text x="636" y="82"><tspan class="accent">↗</tspan> Nginx</text>
+    <rect x="739" y="63" width="104" height="27" rx="6" class="tag"/><text x="753" y="82"><tspan class="accent">◫</tspan> systemd</text>
+  </g>
+
+  <rect x="28" y="124" width="944" height="82" rx="10" class="section"/>
+  <text x="46" y="149" class="mono heading"><tspan class="key">Backend, AI &amp; Automation</tspan></text>
+  <g class="mono label">
+    <rect x="46" y="163" width="112" height="27" rx="6" class="tag"/><text x="60" y="182"><tspan class="accent">◆</tspan> Python</text>
+    <rect x="169" y="163" width="120" height="27" rx="6" class="tag"/><text x="183" y="182"><tspan class="accent">⚡</tspan> FastAPI</text>
+    <rect x="300" y="163" width="126" height="27" rx="6" class="tag"/><text x="314" y="182"><tspan class="accent">◎</tspan> OpenAI API</text>
+    <rect x="437" y="163" width="102" height="27" rx="6" class="tag"/><text x="451" y="182"><tspan class="accent">⌘</tspan> Git</text>
+    <rect x="550" y="163" width="164" height="27" rx="6" class="tag"/><text x="564" y="182"><tspan class="accent">▶</tspan> GitHub Actions</text>
+    <rect x="725" y="163" width="112" height="27" rx="6" class="tag"/><text x="739" y="182"><tspan class="accent">◈</tspan> Docker</text>
+  </g>
+
+  <rect x="28" y="224" width="944" height="82" rx="10" class="section"/>
+  <text x="46" y="249" class="mono heading"><tspan class="key">Security &amp; Operations</tspan></text>
+  <g class="mono label">
+    <rect x="46" y="263" width="118" height="27" rx="6" class="tag"/><text x="60" y="282"><tspan class="accent">🔒</tspan> HTTPS/TLS</text>
+    <rect x="175" y="263" width="148" height="27" rx="6" class="tag"/><text x="189" y="282"><tspan class="accent">◇</tspan> Cloud IAP</text>
+    <rect x="334" y="263" width="158" height="27" rx="6" class="tag"/><text x="348" y="282"><tspan class="accent">≋</tspan> Cloud Logging</text>
+    <rect x="503" y="263" width="156" height="27" rx="6" class="tag"/><text x="517" y="282"><tspan class="accent">◉</tspan> Observability</text>
+    <rect x="670" y="263" width="153" height="27" rx="6" class="tag"/><text x="684" y="282"><tspan class="accent">⛨</tspan> API Protection</text>
+  </g>
+</svg>
