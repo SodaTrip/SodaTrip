@@ -1,16 +1,67 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="290" viewBox="0 0 1000 290" role="img" aria-labelledby="title desc">
-  <title id="title">Yasser Mendoza Cloud Engineering Terminal</title>
-  <desc id="desc">Terminal style profile card using a dark syntax-inspired palette.</desc>
-  <defs><style>
-    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace}.key{fill:#c792ea}.value{fill:#7ee787}.text{fill:#f8fafc}.muted{fill:#94a3b8}.accent{fill:#8be9fd}.cursor{fill:#f8fafc;animation:blink 1s steps(1,end) infinite}.l1{animation:s1 9s infinite}.l2{animation:s2 9s infinite}.l3{animation:s3 9s infinite}.l4{animation:s4 9s infinite}.l5{animation:s5 9s infinite}@keyframes blink{0%,48%{opacity:1}49%,100%{opacity:0}}@keyframes s1{0%,8%{opacity:0}10%,100%{opacity:1}}@keyframes s2{0%,22%{opacity:0}24%,100%{opacity:1}}@keyframes s3{0%,38%{opacity:0}40%,100%{opacity:1}}@keyframes s4{0%,54%{opacity:0}56%,100%{opacity:1}}@keyframes s5{0%,70%{opacity:0}72%,100%{opacity:1}}@media(prefers-reduced-motion:reduce){.l1,.l2,.l3,.l4,.l5,.cursor{animation:none!important;opacity:1}}
-  </style></defs>
-  <rect x="25" y="20" width="950" height="250" rx="18" fill="#0b1220" stroke="#273244"/><rect x="25" y="20" width="950" height="42" rx="18" fill="#111827"/><rect x="25" y="47" width="950" height="15" fill="#111827"/>
-  <circle cx="55" cy="41" r="6" fill="#f87171"/><circle cx="77" cy="41" r="6" fill="#fbbf24"/><circle cx="99" cy="41" r="6" fill="#4ade80"/><text x="500" y="47" text-anchor="middle" class="mono muted" font-size="14">profile.py — yasser@sodatrip</text>
-  <g class="mono" font-size="22">
-    <text x="60" y="98" class="l1"><tspan class="key">name</tspan><tspan class="text"> = </tspan><tspan class="value">"Yasser Mendoza"</tspan></text>
-    <text x="60" y="132" class="l2"><tspan class="key">role</tspan><tspan class="text"> = </tspan><tspan class="value">"Cloud Engineer in Progress"</tspan></text>
-    <text x="60" y="166" class="l3"><tspan class="key">focus</tspan><tspan class="text"> = [</tspan><tspan class="value">"Google Cloud"</tspan><tspan class="text">, </tspan><tspan class="value">"Linux"</tspan><tspan class="text">, </tspan><tspan class="value">"OpenAI"</tspan><tspan class="text">]</tspan></text>
-    <text x="60" y="200" class="l4"><tspan class="key">building</tspan><tspan class="text"> = </tspan><tspan class="value">"secure, observable cloud systems"</tspan></text>
-    <text x="60" y="234" class="l5"><tspan class="key">next</tspan><tspan class="text"> = </tspan><tspan class="accent">"terraform → kubernetes → sre"</tspan><tspan class="cursor"> █</tspan></text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="310" viewBox="0 0 1000 310" role="img" aria-labelledby="title desc">
+  <title id="title">Yasser Mendoza Linux Terminal</title>
+  <desc id="desc">Animated Linux terminal style profile card for Yasser Mendoza.</desc>
+  <defs>
+    <style>
+      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace}
+      .dim{fill:#8b949e}
+      .text{fill:#f0f6fc}
+      .green{fill:#7ee787}
+      .blue{fill:#79c0ff}
+      .magenta{fill:#d2a8ff}
+      .yellow{fill:#e3b341}
+      .cursor{fill:#7ee787;animation:blink 1s steps(1,end) infinite}
+      .l1{animation:show1 11s infinite}.l2{animation:show2 11s infinite}.l3{animation:show3 11s infinite}
+      .l4{animation:show4 11s infinite}.l5{animation:show5 11s infinite}.l6{animation:show6 11s infinite}.l7{animation:show7 11s infinite}
+      @keyframes blink{0%,48%{opacity:1}49%,100%{opacity:0}}
+      @keyframes show1{0%,5%{opacity:0}7%,100%{opacity:1}}
+      @keyframes show2{0%,16%{opacity:0}18%,100%{opacity:1}}
+      @keyframes show3{0%,30%{opacity:0}32%,100%{opacity:1}}
+      @keyframes show4{0%,44%{opacity:0}46%,100%{opacity:1}}
+      @keyframes show5{0%,58%{opacity:0}60%,100%{opacity:1}}
+      @keyframes show6{0%,72%{opacity:0}74%,100%{opacity:1}}
+      @keyframes show7{0%,84%{opacity:0}86%,100%{opacity:1}}
+      @media (prefers-reduced-motion: reduce){.l1,.l2,.l3,.l4,.l5,.l6,.l7,.cursor{animation:none!important;opacity:1}}
+    </style>
+  </defs>
+
+  <rect x="22" y="18" width="956" height="274" rx="16" fill="#0d1117" stroke="#30363d"/>
+  <rect x="22" y="18" width="956" height="34" rx="16" fill="#161b22"/>
+  <rect x="22" y="37" width="956" height="15" fill="#161b22"/>
+
+  <circle cx="48" cy="35" r="6" fill="#ff5f56"/>
+  <circle cx="68" cy="35" r="6" fill="#ffbd2e"/>
+  <circle cx="88" cy="35" r="6" fill="#27c93f"/>
+
+  <text x="500" y="39" text-anchor="middle" class="mono dim" font-size="14">bash — yasser@sodatrip: ~</text>
+
+  <g class="mono" font-size="20">
+    <text x="42" y="86" class="l1">
+      <tspan class="green">yasser@sodatrip</tspan><tspan class="text">:</tspan><tspan class="blue">~</tspan><tspan class="text">$ </tspan><tspan class="yellow">whoami</tspan>
+    </text>
+
+    <text x="42" y="114" class="l2">
+      <tspan class="text">Yasser Mendoza</tspan>
+    </text>
+
+    <text x="42" y="146" class="l3">
+      <tspan class="green">yasser@sodatrip</tspan><tspan class="text">:</tspan><tspan class="blue">~</tspan><tspan class="text">$ </tspan><tspan class="yellow">echo $ROLE</tspan>
+    </text>
+
+    <text x="42" y="174" class="l4">
+      <tspan class="magenta">Cloud Engineer in Progress</tspan>
+    </text>
+
+    <text x="42" y="206" class="l5">
+      <tspan class="green">yasser@sodatrip</tspan><tspan class="text">:</tspan><tspan class="blue">~</tspan><tspan class="text">$ </tspan><tspan class="yellow">cat focus.txt</tspan>
+    </text>
+
+    <text x="42" y="236" class="l6" font-size="18">
+      <tspan class="text">• Google Cloud   • Linux   • OpenAI   • Python</tspan>
+    </text>
+
+    <text x="42" y="264" class="l7" font-size="18">
+      <tspan class="text">• Docker   • CI/CD   • Terraform   • Kubernetes</tspan><tspan class="cursor">█</tspan>
+    </text>
   </g>
 </svg>
