@@ -6,15 +6,15 @@
 
 ### Cloud Engineer in Progress
 
-**Google Cloud · Linux · Infrastructure · Automation · Security**
+**Google Cloud · Linux · OpenAI · Automation · Security**
 
-Building production-minded cloud systems and documenting the engineering decisions behind them.
+Building production-minded cloud systems with a hands-on focus on infrastructure, operations, and AI-backed applications.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-yassermendoza.com-0A66C2?style=flat-square)](https://yassermendoza.com)
 ![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-111827?style=flat-square&logo=linux&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-0b1220?style=flat-square&logo=openai&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
 </div>
@@ -23,42 +23,23 @@ Building production-minded cloud systems and documenting the engineering decisio
 
 ## `01 / About`
 
-I am building toward a career as a **Cloud Engineer**, with a primary focus on **Google Cloud Platform** and the engineering practices that make cloud systems secure, reliable, observable, and repeatable.
+I am building toward a career as a **Cloud Engineer**, focused on **Google Cloud Platform** and the practices that make systems secure, reliable, observable, and repeatable.
 
-My approach is hands-on: I use real projects to develop skills across cloud infrastructure, Linux administration, backend systems, security, CI/CD, observability, and technical documentation.
+I learn by building real projects that combine **cloud infrastructure, Linux administration, backend systems, automation, security, and OpenAI-powered features**.
 
 ```text
 Primary direction   → Cloud Engineering
 Cloud platform      → Google Cloud Platform
-Engineering focus   → Infrastructure · Security · Automation · Observability
-DevOps foundation   → Git · GitHub Actions · Docker · CI/CD
+Focus               → Infrastructure · Security · Automation · Observability
+Working with        → Linux · Python · FastAPI · OpenAI · GitHub Actions
 Location            → LATAM
 ```
 
-## `02 / Currently`
+## `02 / Core Stack`
 
-| | Focus |
-|---|---|
-| **Building** | Production-oriented cloud infrastructure and a Cloud + AI professional portfolio |
-| **Strengthening** | GCP, Linux, networking, security, deployment workflows, observability |
-| **Learning next** | Terraform, Kubernetes, deeper CI/CD, SRE practices |
-| **Career target** | Cloud Engineer → Senior Cloud Engineer |
+<img src="./assets/core-stack.svg" alt="Grouped core technology stack for cloud infrastructure, backend AI automation, and security operations" width="100%" />
 
-## `03 / Core Stack`
-
-**Cloud & Infrastructure**
-
-`Google Cloud Platform` · `Compute Engine` · `Cloud DNS` · `Cloud Logging` · `Linux` · `Nginx` · `systemd`
-
-**Backend & Automation**
-
-`Python` · `FastAPI` · `Pydantic` · `Git` · `GitHub Actions` · `Docker` · `Docker Compose`
-
-**Security & Operations**
-
-`HTTPS/TLS` · `Google Cloud IAP` · `Rate Limiting` · `Input Validation` · `Structured Logging` · `Request Tracing`
-
-## `04 / Featured Project`
+## `03 / Featured Project`
 
 ### ☁️ Cloud & AI Portfolio — Production
 
@@ -69,17 +50,13 @@ A production portfolio built as a hands-on Cloud Engineering project on **Google
 It demonstrates:
 
 - Google Cloud infrastructure with Compute Engine and Cloud DNS
-- Linux server administration
-- Nginx as web server and reverse proxy
+- Linux administration and Nginx reverse proxying
 - Python + FastAPI backend development
 - Restricted administrative access through Google Cloud IAP
 - HTTPS/TLS with Let's Encrypt
-- Git-based deterministic deployments
-- Automated backend testing and CI with GitHub Actions
-- Structured application logging with Google Cloud Logging
-- Request-level and AI-provider observability
-- Public API validation, rate limiting, timeouts, and controlled errors
-- Backend-only OpenAI integration with server-side credentials
+- Deterministic Git-based deployments
+- GitHub Actions CI, structured logging, and request-level observability
+- Backend-only OpenAI API integration with protected server-side credentials
 
 <details>
 <summary><strong>Explore the architecture</strong></summary>
@@ -88,23 +65,17 @@ It demonstrates:
 
 ```text
 Visitor
-   │
    │ HTTPS
    ▼
 Google Cloud DNS
-   │
    ▼
 Compute Engine
-   │
    ▼
 Nginx
-   ├──────────────► Static Frontend
-   │
+   ├── Static Frontend
    └── /api/*
-          │
           ▼
        FastAPI
-          │
           ▼
        AI Service
           ├── Professional Knowledge Base
@@ -117,50 +88,20 @@ Operations
    └── Deterministic deployment workflow
 ```
 
-The backend is not exposed directly to the Internet; public application traffic is routed through Nginx.
+The backend is not exposed directly to the Internet; public traffic is routed through Nginx.
 
 </details>
 
-## `05 / Cloud Engineering Journey`
+## `04 / Cloud Engineering Journey`
 
-<img src="./assets/cloud-journey.svg" alt="Cloud Engineering Journey with animated learning-stage bars" width="100%" />
+<img src="./assets/cloud-journey.svg" alt="Cloud engineering journey with animated segmented learning-stage bars" width="100%" />
 
-The bars represent **learning stages rather than percentage-based proficiency**: what I have already practiced, what I am actively strengthening, and what comes next in the roadmap.
-
-## `06 / Engineering Principles`
-
-```text
-Security is part of the architecture.
-
-Automate what is repeatable.
-
-Document what is operationally important.
-
-Understand systems before abstracting them.
-
-Observe production systems instead of guessing.
-
-Build projects that demonstrate engineering decisions, not only technologies.
-```
-
-## `07 / What I Want My Repositories to Show`
-
-I am intentionally building this GitHub around evidence of engineering ability:
-
-- **Cloud projects** — architecture, networking, compute, IAM, operations
-- **Infrastructure as Code** — repeatable GCP environments with Terraform
-- **DevOps labs** — containers, CI/CD, deployment workflows
-- **Linux labs** — administration, services, troubleshooting, hardening
-- **Engineering documentation** — architecture decisions, runbooks, postmortems, and operational notes
-
-## `08 / Next Milestones`
+## `05 / Next Milestones`
 
 - [ ] Build reusable GCP infrastructure with Terraform
-- [ ] Containerize and standardize application deployments
-- [ ] Expand CI/CD from automated testing toward controlled delivery
+- [ ] Strengthen container-based deployment workflows
+- [ ] Expand CI/CD toward controlled delivery
 - [ ] Deepen monitoring, alerting, and SRE practices
-- [ ] Build Kubernetes fundamentals after the container/IaC foundation
-- [ ] Publish additional recruiter-friendly Cloud Engineering projects
 
 ---
 
