@@ -123,46 +123,9 @@ The backend is not exposed directly to the Internet; public application traffic 
 
 ## `05 / Cloud Engineering Journey`
 
-```text
-FOUNDATIONS
-   │
-   ├── Linux administration ─────────────── ●
-   ├── Git / GitHub ────────────────────── ●
-   ├── Python ──────────────────────────── ●
-   └── Networking ─────────────────────── ◐
-        │
-        ▼
-GOOGLE CLOUD
-   │
-   ├── Compute Engine ──────────────────── ●
-   ├── Cloud DNS ───────────────────────── ●
-   ├── IAP / secure administration ─────── ●
-   ├── Cloud Logging ───────────────────── ●
-   └── Broader GCP architecture ────────── ◐
-        │
-        ▼
-DEVOPS & OPERATIONS
-   │
-   ├── GitHub Actions / CI ─────────────── ●
-   ├── Docker ──────────────────────────── ◐
-   ├── Observability ───────────────────── ◐
-   └── Deployment automation ───────────── ◐
-        │
-        ▼
-INFRASTRUCTURE AS CODE
-   │
-   └── Terraform ───────────────────────── ○
-        │
-        ▼
-CONTAINERS & ORCHESTRATION
-   │
-   └── Kubernetes ──────────────────────── ○
-        │
-        ▼
-SRE / ADVANCED CLOUD ENGINEERING
-```
+<img src="./assets/cloud-journey.svg" alt="Cloud Engineering Journey with animated learning-stage bars" width="100%" />
 
-`● implemented / practiced` · `◐ actively strengthening` · `○ next stage`
+The bars represent **learning stages rather than percentage-based proficiency**: what I have already practiced, what I am actively strengthening, and what comes next in the roadmap.
 
 ## `06 / Engineering Principles`
 
