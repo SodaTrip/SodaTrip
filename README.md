@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/cloud-terminal.svg" alt="Yasser Mendoza cloud engineering terminal" width="100%" />
+<img src="./assets/cloud-terminal.svg" alt="Animated Linux terminal profile for Yasser Mendoza" width="100%" />
 
 # Yasser Mendoza
 
