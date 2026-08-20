@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" role="img" aria-labelledby="title desc">
+  <title id="title">Yasser Mendoza Cloud Engineering Journey</title>
+  <desc id="desc">Animated segmented progress bars for Google Cloud, Linux, DevOps and CI, Terraform, and Kubernetes.</desc>
+  <defs>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+      .title { fill: #f8fafc; font-size: 21px; font-weight: 700; }
+      .subtitle { fill: #94a3b8; font-size: 14px; }
+      .label { fill: #e2e8f0; font-size: 17px; font-weight: 600; }
+      .status { fill: #94a3b8; font-size: 13px; }
+      .track { fill: #1f2937; }
+      .gcp { fill: #4285f4; }
+      .linux { fill: #61af72; }
+      .devops { fill: #a78bfa; }
+      .terraform { fill: #7c6fe8; }
+      .k8s { fill: #38bdf8; }
+      .active { animation: reveal 5.5s ease-in-out infinite; transform-box: fill-box; transform-origin: left center; }
+      .d1 { animation-delay: .08s; }
+      .d2 { animation-delay: .20s; }
+      .d3 { animation-delay: .32s; }
+      .d4 { animation-delay: .44s; }
+      .d5 { animation-delay: .56s; }
+      @keyframes reveal {
+        0%, 8% { opacity: .18; transform: scaleX(.18); }
+        28%, 82% { opacity: 1; transform: scaleX(1); }
+        100% { opacity: .88; transform: scaleX(1); }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .active { animation: none !important; opacity: 1; transform: none; }
+      }
+    </style>
+  </defs>
+
+  <rect x="12" y="12" width="976" height="406" rx="18" fill="#0b1220" stroke="#1f2937"/>
+
+  <text x="46" y="56" class="mono title">cloud_engineering_journey</text>
+  <text x="46" y="80" class="mono subtitle">practiced → strengthening → next stage</text>
+
+  <!-- Google Cloud icon -->
+  <g transform="translate(48 111)">
+    <path d="M22 25h27a14 14 0 0 0 1-28 21 21 0 0 0-39-2A15 15 0 0 0 22 25Z" fill="none" stroke="#4285f4" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <text x="102" y="132" class="mono label">Google Cloud</text>
+  <text x="890" y="132" text-anchor="end" class="mono status">practiced</text>
+  <g transform="translate(315 111)">
+    <rect x="0" y="0" width="100" height="24" rx="4" class="track"/><rect x="112" y="0" width="100" height="24" rx="4" class="track"/><rect x="224" y="0" width="100" height="24" rx="4" class="track"/><rect x="336" y="0" width="100" height="24" rx="4" class="track"/><rect x="448" y="0" width="100" height="24" rx="4" class="track"/>
+    <rect x="0" y="0" width="100" height="24" rx="4" class="gcp active d1"/><rect x="112" y="0" width="100" height="24" rx="4" class="gcp active d2"/><rect x="224" y="0" width="100" height="24" rx="4" class="gcp active d3"/><rect x="336" y="0" width="100" height="24" rx="4" class="gcp active d4"/>
+  </g>
+
+  <!-- Linux icon -->
+  <g transform="translate(52 166)" fill="none" stroke="#61af72" stroke-width="3" stroke-linecap="round">
+    <circle cx="18" cy="12" r="8"/><path d="M7 32c2-9 6-13 11-13s9 4 11 13M13 10h.1M23 10h.1M15 15c2 2 4 2 6 0"/>
+  </g>
+  <text x="102" y="188" class="mono label">Linux</text>
+  <text x="890" y="188" text-anchor="end" class="mono status">practiced</text>
+  <g transform="translate(315 167)">
+    <rect x="0" y="0" width="100" height="24" rx="4" class="track"/><rect x="112" y="0" width="100" height="24" rx="4" class="track"/><rect x="224" y="0" width="100" height="24" rx="4" class="track"/><rect x="336" y="0" width="100" height="24" rx="4" class="track"/><rect x="448" y="0" width="100" height="24" rx="4" class="track"/>
+    <rect x="0" y="0" width="100" height="24" rx="4" class="linux active d1"/><rect x="112" y="0" width="100" height="24" rx="4" class="linux active d2"/><rect x="224" y="0" width="100" height="24" rx="4" class="linux active d3"/><rect x="336" y="0" width="100" height="24" rx="4" class="linux active d4"/>
+  </g>
+
+  <!-- DevOps icon -->
+  <g transform="translate(50 222)" fill="none" stroke="#a78bfa" stroke-width="3" stroke-linecap="round">
+    <path d="M4 17c5-9 12-12 20-7l10 7c8 5 15 2 20-7M4 17c5 9 12 12 20 7l10-7c8-5 15-2 20 7"/>
+  </g>
+  <text x="102" y="244" class="mono label">DevOps / CI</text>
+  <text x="890" y="244" text-anchor="end" class="mono status">strengthening</text>
+  <g transform="translate(315 223)">
+    <rect x="0" y="0" width="100" height="24" rx="4" class="track"/><rect x="112" y="0" width="100" height="24" rx="4" class="track"/><rect x="224" y="0" width="100" height="24" rx="4" class="track"/><rect x="336" y="0" width="100" height="24" rx="4" class="track"/><rect x="448" y="0" width="100" height="24" rx="4" class="track"/>
+    <rect x="0" y="0" width="100" height="24" rx="4" class="devops active d1"/><rect x="112" y="0" width="100" height="24" rx="4" class="devops active d2"/><rect x="224" y="0" width="100" height="24" rx="4" class="devops active d3"/>
+  </g>
+
+  <!-- Terraform icon -->
+  <g transform="translate(53 277)" fill="#7c6fe8">
+    <path d="M0 2 14 10v16L0 18Zm17 10 14 8v16l-14-8Zm17 10 14-8v16l-14 8Z"/>
+  </g>
+  <text x="102" y="300" class="mono label">Terraform</text>
+  <text x="890" y="300" text-anchor="end" class="mono status">next stage</text>
+  <g transform="translate(315 279)">
+    <rect x="0" y="0" width="100" height="24" rx="4" class="track"/><rect x="112" y="0" width="100" height="24" rx="4" class="track"/><rect x="224" y="0" width="100" height="24" rx="4" class="track"/><rect x="336" y="0" width="100" height="24" rx="4" class="track"/><rect x="448" y="0" width="100" height="24" rx="4" class="track"/>
+    <rect x="0" y="0" width="100" height="24" rx="4" class="terraform active d1"/>
+  </g>
+
+  <!-- Kubernetes icon -->
+  <g transform="translate(51 333)" fill="none" stroke="#38bdf8" stroke-width="3">
+    <circle cx="20" cy="18" r="13"/><circle cx="20" cy="18" r="4"/><path d="M20 1v7M20 28v7M3 18h7M30 18h7M8 6l5 5M27 25l5 5M32 6l-5 5M13 25l-5 5"/>
+  </g>
+  <text x="102" y="356" class="mono label">Kubernetes</text>
+  <text x="890" y="356" text-anchor="end" class="mono status">next stage</text>
+  <g transform="translate(315 335)">
+    <rect x="0" y="0" width="100" height="24" rx="4" class="track"/><rect x="112" y="0" width="100" height="24" rx="4" class="track"/><rect x="224" y="0" width="100" height="24" rx="4" class="track"/><rect x="336" y="0" width="100" height="24" rx="4" class="track"/><rect x="448" y="0" width="100" height="24" rx="4" class="track"/>
+    <rect x="0" y="0" width="100" height="24" rx="4" class="k8s active d1"/>
+  </g>
+
+  <text x="46" y="397" class="mono subtitle">Bars represent learning stages, not percentage-based proficiency.</text>
+</svg>
